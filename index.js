@@ -61,7 +61,7 @@ function nextSequence() {
 	userClickedPattern = []
 	level++;
 	$("#level-title").text("Level " + level)
-	var randomNumber = Math.floor(Math.random() * 3);
+	var randomNumber = Math.floor(Math.random() * 4);
 	var randomChosenColor = buttonColors[randomNumber];
 	gamePattern.push(randomChosenColor)
 	playSound(randomChosenColor, 'second', 'third')
